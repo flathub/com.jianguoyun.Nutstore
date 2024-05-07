@@ -18,6 +18,7 @@
   <url type="homepage">https://www.jianguoyun.com</url>
   <developer_name>Shanghai YiJing Network Tech Co., Ltd</developer_name>
   <releases>
+    <release version="6.2.8" date="2024-05-07"/>
     <release version="6.2.8" date="2024-01-09">
       <url type="details">https://help.jianguoyun.com/?p=1419</url>
       <description>Nutstore linux 6.2.8</description>
