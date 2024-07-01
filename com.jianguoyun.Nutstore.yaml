@@ -1,6 +1,6 @@
 app-id: com.jianguoyun.Nutstore
 runtime: org.gnome.Platform
-runtime-version: "46"
+runtime-version: '46'
 sdk: org.gnome.Sdk
 command: nutstore
 finish-args:
@@ -26,7 +26,7 @@ modules:
       - type: archive
         url: https://dotat.at/prog/unifdef/unifdef-2.12.tar.xz
         sha256: 43ce0f02ecdcdc723b2475575563ddb192e988c886d368260bc0a63aee3ac400
-  - "shared-modules/libsoup/libsoup-2.4.json"
+  - shared-modules/libsoup/libsoup-2.4.json
   # Nutstore need libwebkit2gtk-4.0.so, while org.gnome.Platform provides libwebkit2gtk-4.1.so.
   - name: webkitgtk-4.0
     buildsystem: cmake
@@ -50,7 +50,7 @@ modules:
       - install -D -t /app/share/applications/ com.jianguoyun.Nutstore.desktop
       - install -D -t /app/share/metainfo/ com.jianguoyun.Nutstore.metainfo.xml
     only-arches:
-      - "x86_64"
+      - x86_64
     sources:
       - type: script
         commands:
@@ -64,9 +64,9 @@ modules:
         dest-filename: apply_extra
       - type: extra-data
         filename: nutstore_linux_dist_x64.tar.gz
-        url: https://pkg-cdn.jianguoyun.com/static/exe/installer/nutstore_linux_dist_x64.tar.gz
-        sha256: 532503ed97ff4eb8e4bcfeba10ba652d9674efd9b3bc067da407b75191016f1a
-        size: 61079686
+        url: https://www.jianguoyun.com/static/exe/installer/nutstore_linux_dist_x64.tar.gz
+        sha256: 64ae506fa339e05119f7ca96139c1d65824b3e49a1af6488ee2c4fdc72dd6809
+        size: 61217969
         x-checker-data:
           type: json
           url: https://www.jianguoyun.com/static/exe/latestVersion?cache=false
