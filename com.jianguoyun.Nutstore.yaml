@@ -46,9 +46,9 @@ modules:
         only-arches:
           - x86_64
         filename: nutstore.tar.gz
-        url: https://dc-pkg-cdn.jianguoyun.com/static/exe/st/6.3.2/nutstore_client-6.3.2-linux-x86_64-public.tar.gz
-        sha256: 64ae506fa339e05119f7ca96139c1d65824b3e49a1af6488ee2c4fdc72dd6809
-        size: 61217969
+        url: https://dc-pkg-cdn.jianguoyun.com/static/exe/st/6.3.6/nutstore_client-6.3.6-linux-x86_64-public.tar.gz
+        sha256: 09739a9798a4ac59922a1d82f5dd5d088b46965b75a1d644d88af24594543522
+        size: 61217951
         x-checker-data:
           type: json
           url: https://www.jianguoyun.com/static/exe/latestVersion?cache=false
@@ -58,9 +58,9 @@ modules:
         only-arches:
           - aarch64
         filename: nutstore.tar.gz
-        url: https://dc-pkg-cdn.jianguoyun.com/static/exe/st/6.3.2/nutstore_client-6.3.2-linux-aarch64-public.tar.gz
-        sha256: 3f64f4dd43ecd00f497af8c8c827d74b02e5caf79b1047799867c75417430e67
-        size: 60089533
+        url: https://dc-pkg-cdn.jianguoyun.com/static/exe/st/6.3.6/nutstore_client-6.3.6-linux-aarch64-public.tar.gz
+        sha256: 5f20c78a5b50cb18870d4a5369085eb63fb5fd75cd4af77dd8107982d699c1ec
+        size: 60088986
         x-checker-data:
           type: json
           url: https://www.jianguoyun.com/static/exe/latestVersion?cache=false
