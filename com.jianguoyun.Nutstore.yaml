@@ -58,9 +58,9 @@ modules:
         only-arches:
           - aarch64
         filename: nutstore.tar.gz
-        url: https://dc-pkg-cdn.jianguoyun.com/static/exe/st/6.3.2/nutstore_client-6.3.2-linux-aarch64-public.tar.gz
-        sha256: 3f64f4dd43ecd00f497af8c8c827d74b02e5caf79b1047799867c75417430e67
-        size: 60089533
+        url: https://dc-pkg-cdn.jianguoyun.com/static/exe/st/6.3.6/nutstore_client-6.3.6-linux-aarch64-public.tar.gz
+        sha256: 5f20c78a5b50cb18870d4a5369085eb63fb5fd75cd4af77dd8107982d699c1ec
+        size: 60088986
         x-checker-data:
           type: json
           url: https://www.jianguoyun.com/static/exe/latestVersion?cache=false
